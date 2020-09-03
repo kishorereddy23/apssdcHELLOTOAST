@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Toast"
+        android:textColor="#fff"
+        android:background="#03A9F4"
+        android:id="@+id/toast_button"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:text="0"
+        android:textColor="#E91E63"
+        android:background="#CDDC39"
+        android:id="@+id/tv"
+        android:gravity="center"
+        android:textSize="100dp"
+    />
+    <Button
+        android:id="@+id/count_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#2196F3"
+        android:textColor="#fff"
+        android:text="count"/>
+</LinearLayout>
